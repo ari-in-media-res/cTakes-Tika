@@ -1,0 +1,1 @@
+java -classpath $CTAKES_HOME/src/ctakes-config:${CTAKES_HOME}/desc:${CTAKES_HOME}/resources:${CTAKES_HOME}/lib/\* org.apache.tika.cli.TikaCLI --config=$CTAKES_HOME/src/ctakes-config/tika-config.xml -m testdata/testpatient_*

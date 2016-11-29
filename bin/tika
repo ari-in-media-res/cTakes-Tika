@@ -1,0 +1,2 @@
+#!/bin/bash
+exec java  -jar /usr/local/Cellar/tika/1.11/libexec/tika-app-1.11.jar "$@"
